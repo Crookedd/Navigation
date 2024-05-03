@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
 
         navigationView.setupWithNavController(navController)
 
-        setSupportActionBar(findViewById(R.id.toolbar))
+        //setSupportActionBar(findViewById(R.id.toolbar))
         appBarConfiguration = AppBarConfiguration(navController.graph, drawerLayout)
         setupActionBarWithNavController(navController, appBarConfiguration)
     }
